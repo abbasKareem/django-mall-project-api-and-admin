@@ -234,11 +234,12 @@ WSGI_APPLICATION = 'cfehome.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bgqgamlo',
-        'USER': 'bgqgamlo',
-        'PASSWORD': 'Hp-1O5Vyli6uhDOh-4_lQZ5qx8En17OO',
-        'HOST': 'tyke.db.elephantsql.com',
-        'PORT': '',
+        'NAME': 'malldb',
+        'USER': 'abbas',
+        'PASSWORD': 'cR2C9Wb5LZKFGgsJPGvX5ckePm0pEBYc',
+        'HOST': 'dpg-cch384g2i3mukrc0ou5g-a.frankfurt-postgres.render.com',
+        'PORT': '5432',
+        # postgres://abbas:cR2C9Wb5LZKFGgsJPGvX5ckePm0pEBYc@dpg-cch384g2i3mukrc0ou5g-a.frankfurt-postgres.render.com/malldb
     }
 }
 
